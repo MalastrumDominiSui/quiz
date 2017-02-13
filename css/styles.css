@@ -1,7 +1,29 @@
-body {
-	font: 15px arial, sans-serif;
-	text-align: center;
+html {
+	background-color: blue;
+	color: white;
+	font: 15px Courier;
 }
+
+input[type="text"], textarea {
+  font: 15px Courier;
+  color: white;
+  background-color : blue; 
+  border-style: none;
+  width: 800px;
+}
+
+textarea, input, button { outline: none; }
+
+body p{
+	text-align: left;
+	display: inline;
+}
+body form{
+	display:inline;
+	background-color:blue;
+
+}
+
 
 
 
