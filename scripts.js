@@ -79,24 +79,24 @@ window.addEventListener("load", function(){
 					event.preventDefault();
 					// tryAgain();
 				}
-			case 1://2nd question
-				if(ANSWERS[totalQuestions].includes(userString)){
-					addLine();
-					modelPage();
-					showText($aiTyper[$aiTyper.length-1], "Great! It is good to meet someone so intelligent.", 0, 40);
-					totalQuestions ++;
-					addLine();
-					modelPage();
-					showText($aiTyper[$aiTyper.length-1], QUESTIONS[totalQuestions], 0, 40);
-					event.preventDefault();
-				}
-				else{
-					addLine();
-					modelPage();
-					showText($aiTyper[$aiTyper.length-1], "This is unnacceptable. You are not a Code School student. Better luck next time.", 0, 40);
-					event.preventDefault();
-					// tryAgain();
-				}
+			// case 1://2nd question
+			// 	if(ANSWERS[totalQuestions].includes(userString)){
+			// 		addLine();
+			// 		modelPage();
+			// 		showText($aiTyper[$aiTyper.length-1], "Great! It is good to meet someone so intelligent.", 0, 40);
+			// 		totalQuestions ++;
+			// 		addLine();
+			// 		modelPage();
+			// 		showText($aiTyper[$aiTyper.length-1], QUESTIONS[totalQuestions], 0, 40);
+			// 		event.preventDefault();
+			// 	}
+			// 	else{
+			// 		addLine();
+			// 		modelPage();
+			// 		showText($aiTyper[$aiTyper.length-1], "This is unnacceptable. You are not a Code School student. Better luck next time.", 0, 40);
+			// 		event.preventDefault();
+			// 		// tryAgain();
+			// 	}
 
 			case 2:
 
